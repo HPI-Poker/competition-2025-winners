@@ -1,6 +1,6 @@
 # Winners of HPI Showdown 2025
 This repository contains code from the top performing teams of HPI Showdown 2025:
-1. [Der Graph von Monte Carlo](./bots/graph_von_monte_carlo/) by Team 13 ([roehrt](https://github.com/roehrt) and kokonuts)
+1. [Der Graph von Monte Carlo](./bots/graph_von_monte_carlo/) by Team 13 ([roehrt](https://github.com/roehrt) and [PonderKoKo](https://github.com/PonderKoKo))
 2. [Harry](./bots/harry/)
 3. [Stockfish_v2](./bots/stockfish_v2/)
 
