@@ -1,6 +1,6 @@
 # Winners of HPI Showdown 2025
 This repository contains code from the top performing teams of HPI Showdown 2025:
-1. [Der Graph von Monte Carlo](./bots/graph_von_monte_carlo/)
+1. [Der Graph von Monte Carlo](./bots/graph_von_monte_carlo/) by Team 13 ([roehrt](https://github.com/roehrt) and kokonuts)
 2. [Harry](./bots/harry/)
 3. [Stockfish_v2](./bots/stockfish_v2/)
 
@@ -133,6 +133,11 @@ Otherwise make sure you have the correct versions of the libraries installed. Al
 Use GCP for free Cloud Resources provided by our partner Google. On GCP you can start a VM in the Compute Engine. You will have to set it up to contain the dependencies (especially docker, docker-compose and git).
 
 ## Authors
+### Team 13 (Graph von Monte Carlo)
+- [roehrt](https://github.com/roehrt)
+- [PonderKoKo](https://github.com/PonderKoKo)
+
+### HPI Showdown Team providing the template
 - Philipp Kolbe
 - Mehdi Gouasmi
 - Anton Hackl
@@ -141,3 +146,4 @@ Use GCP for free Cloud Resources provided by our partner Google. On GCP you can 
 
 ## Acknowledgements
 Credits go to [MIT Pokerbots](https://pokerbots.org/) for providing us with the basis for the poker framework.
+
