@@ -1,5 +1,10 @@
-# HPI Showdown 2025
-Official Repository of HPI Shodown - the Poker Bot Competition 2025. Additional information can be found in the [Wiki](https://hpi-poker.notion.site). You can find updated information of this `README` under [Framework & Setup](https://hpi-poker.notion.site/Framework-Setup-173bcdee7a5e806d8a49ca144f7b98a0) and [Troubleshooting](https://hpi-poker.notion.site/Troubleshooting-176bcdee7a5e803eaaa7ff846d740280). 
+# Winners of HPI Showdown 2025
+This repository contains code from the top performing teams of HPI Showdown 2025:
+1. [Der Graph von Monte Carlo](./bots/graph_von_monte_carlo/)
+2. [Harry](./bots/harry/)
+3. [Stockfish_v2](./bots/stockfish_v2/)
+
+Templated from the official Repository of HPI Showdown - the Poker Bot Competition 2025. Additional information can be found in the [Wiki](https://hpi-poker.notion.site). You can find updated information of this `README` under [Framework & Setup](https://hpi-poker.notion.site/Framework-Setup-173bcdee7a5e806d8a49ca144f7b98a0) and [Troubleshooting](https://hpi-poker.notion.site/Troubleshooting-176bcdee7a5e803eaaa7ff846d740280). 
 
 ## Developing your Poker Bot
 In the bots folder you can find different skeletons for python and C++. Choose your preferred language, copy the corresponding skeleton directory and start implementing your poker bot.
@@ -16,9 +21,6 @@ Before installing a library you have to check with the HPI Showdown team if this
 You can install the libraries in the `Dockerfile` of your bot. For python you can also add it to the `requirements.txt`. Make sure that all resources your bot requires are inside of the `Dockerfile` and the directory of the bot.
 
 If you are running your bot without docker you should also add the library to your `environment.yaml`.
-
-### Submission
-Before the competitions you will have to push the code of your current bot into the correct subdirectory of the `submission` directory. See `submission/example` as an example structure. We will only consider the code inside of this directory (make sure no files outside of this directory are referenced) that was pushed before the deadline. Edit the `name.txt` to give your bot a name for the final competition.
 
 ## Running your Poker Bot
 The engine can run an 1v1 poker game consisting of several rounds between two bots. `.env` contains the configuration for your matchup including the paths to the two bots you want to play against each other. The rest of the configuration is setup just as in the final tournament. You may change them while developing e.g. preventing to enforce the game clock to prevent timeouts while debugging your bot.
