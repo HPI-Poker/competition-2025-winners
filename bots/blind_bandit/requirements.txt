@@ -1,0 +1,3 @@
+# Please list all dependencies that are required for the bot (not the engine!). These will be installed for the competitions.
+# To make things easier for you, you should also add these dependencies to the main environment.yml and install them in your environment.
+eval7==0.1.10

@@ -1,0 +1,47 @@
+services:
+  engine:
+    build: ./engine
+    env_file:
+     - ./.env
+    ports:
+      - ${PLAYER1_PORT}:${PLAYER1_PORT}
+      - ${PLAYER2_PORT}:${PLAYER2_PORT}
+    volumes:
+      - ./logs:/logs
+    networks:
+      - internal_net
+
+  player1: 
+    build: ${PLAYER1_PATH}
+    command: --host engine ${PLAYER1_PORT}
+    depends_on:
+      - engine
+    deploy:
+      resources:
+        limits:
+          cpus: ${DOCKER_CPUS_PER_BOT}
+          memory: ${DOCKER_MAX_MEM_PER_BOT}
+        reservations:
+          cpus: '0.25' # min cpu reservation
+          memory: 50M # min memory reservation
+    networks:
+      - internal_net
+  
+  player2: 
+    build: ${PLAYER2_PATH}
+    command: --host engine ${PLAYER2_PORT}
+    depends_on:
+      - engine
+    deploy:
+      resources:
+        limits:
+          cpus: ${DOCKER_CPUS_PER_BOT}
+          memory: ${DOCKER_MAX_MEM_PER_BOT}
+        reservations:
+          cpus: '0.25' # min cpu reservation
+          memory: 50M # min memory reservation
+    networks:
+      - internal_net
+networks:
+  internal_net:
+    internal: true

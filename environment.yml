@@ -1,0 +1,12 @@
+name: pbc25
+channels:
+  - defaults
+dependencies:
+  - python=3.8.18
+  - cython=3.0.11
+  - pip
+  - pip:
+    - eval7==0.1.10
+    - python-dotenv==1.0.1
+    # If you add packages here you should also add them to the requirements.txt file of your bot.
+    # All packages that your bot needs need to be installed in its docker image.
