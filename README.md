@@ -147,11 +147,11 @@ Use GCP for free Cloud Resources provided by our partner Google. On GCP you can 
 - [simon0914](https://github.com/simon0914)
 
 ### HPI Showdown Team providing the template
-- Philipp Kolbe
-- Mehdi Gouasmi
-- Anton Hackl
-- Tobias Jongen
-- Pit Buttchereit
+- [Philipp Kolbe](https://github.com/philippkolbe)
+- [Mehdi G.](https://github.com/D-i-n-o)
+- [Tobias Jongen](https://github.com/tobiasjongen)
+- [Anton-H](https://github.com/Zerhacker1)
+- [Pit Buttchereit](https://github.com/PitButtchereit)
 
 ## Acknowledgements
 Credits go to [MIT Pokerbots](https://pokerbots.org/) for providing us with the basis for the poker framework.
