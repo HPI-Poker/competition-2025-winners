@@ -1,8 +1,8 @@
 # Winners of HPI Showdown 2025
 This repository contains code from the top performing teams of HPI Showdown 2025:
 1. [Der Graph von Monte Carlo](./bots/graph_von_monte_carlo/) by Team 13 ([roehrt](https://github.com/roehrt) and [PonderKoKo](https://github.com/PonderKoKo))
-2. [Harry](./bots/harry/)
-3. [Stockfish_v2](./bots/stockfish_v2/)
+2. [Harry](./bots/harry/) by Team 27 ([Konstantin](https://github.com/ko-redtruck) and [Tonybodo](https://github.com/Tonybodo))
+3. [Stockfish_v2](./bots/stockfish_v2/) by Team 29 ([Dam1rus](https://github.com/Dam1rus), [Liudvikas Zekas](https://github.com/liudvikaszekas) and [simon0914](https://github.com/simon0914))
 
 Templated from the official Repository of HPI Showdown - the Poker Bot Competition 2025. Additional information can be found in the [Wiki](https://hpi-poker.notion.site). You can find updated information of this `README` under [Framework & Setup](https://hpi-poker.notion.site/Framework-Setup-173bcdee7a5e806d8a49ca144f7b98a0) and [Troubleshooting](https://hpi-poker.notion.site/Troubleshooting-176bcdee7a5e803eaaa7ff846d740280). 
 
@@ -136,6 +136,15 @@ Use GCP for free Cloud Resources provided by our partner Google. On GCP you can 
 ### Team 13 (Graph von Monte Carlo)
 - [roehrt](https://github.com/roehrt)
 - [PonderKoKo](https://github.com/PonderKoKo)
+
+### Team 27 (Harry)
+- [Konstantin](https://github.com/ko-redtruck)
+- [Tonybodo](https://github.com/Tonybodo)
+
+### Team 29 (Stockfish_v2)
+- [Dam1rus](https://github.com/Dam1rus)
+- [Liudvikas Zekas](https://github.com/liudvikaszekas)
+- [simon0914](https://github.com/simon0914)
 
 ### HPI Showdown Team providing the template
 - Philipp Kolbe
